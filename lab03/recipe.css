@@ -1,0 +1,27 @@
+body {
+	background-color: #FFFF99;
+	color: black;
+	font-family: sans-serif;
+	margin: 10px;
+}
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	color: red;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+li {list-style: square;
+}
+p {color: darkblue;
+	font-family: sans-serif;
+}
+a {color: red;
+	cursor: pointer;
+}
+
+img.tomato-image {
+	border-radius: 25%;
+	width: 300px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5) ;
+	background-size: cover;
+}
