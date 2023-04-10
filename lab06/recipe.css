@@ -1,0 +1,94 @@
+body {
+	background-color: #FFFF99;
+	color: black;
+	font-family: sans-serif;
+	margin: 10px;
+}
+h1 {
+	color: black;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+h2,h3 {
+	text-transform: uppercase;
+	color: red;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+li {list-style: square;
+}
+p {color: darkblue;
+	font-family: sans-serif;
+}
+a {color: red;
+	cursor: pointer;
+}
+
+img.tomato-image {
+	border-radius: 25%;
+	width: 300px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 1.5) ;
+	background-size: cover;
+}
+ .container {
+  width: 80%;
+  margin: 0 auto;
+}
+ .top{
+    float:left;
+    text-align: center;
+    height: 100px;
+    padding: 5px;
+    }
+
+ .left{
+    height: 100%;
+    text-align: left;
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+.right{
+    height: 100%;
+    padding: 5px;
+}
+
+a:link {
+  color: blue; 
+  text-decoration: none; 
+}
+
+a:visited {
+  color: red; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: black; 
+  text-decoration: underline; 
+}
+@media only screen and (max-width: 768px) {
+
+	.container {
+		flex-direction: column;
+	}
+	.tomato-image {
+		height: 400px;
+		width: 100%;
+	}
+	.Top {
+		text-align: center;
+	}
+	.left, .right {
+		width: 100%;
+		padding: 0;
+	}
+	.left ul {
+		margin-left: 1rem;
+	}
+	.right ol {
+		margin-left: 1rem;
+	}
+}
