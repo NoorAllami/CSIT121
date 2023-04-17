@@ -8,7 +8,8 @@ body {
 }
 
 #wrapper { 
-	background-color:#92a8d1;
+	background-color:#92a8d1;  /* The structural elements use in this section reverting to Web Development and Design Foundations with HTML5, P74, also to roninoone.com. */
+
 	margin: auto;
 	width: 80%;
 	min-width: 700px;
