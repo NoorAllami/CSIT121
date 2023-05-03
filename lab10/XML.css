@@ -1,0 +1,36 @@
+body {
+		font-family: Arial, sans-serif;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: #FFCCCC;
+		float: left;
+		}
+h1, h2, h3 {
+		color: orangered;
+		margin-top: 20px;
+		margin-bottom: 10px;
+
+		}
+h1 {
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		color: blue;
+		margin-left: 400PX;
+		margin-bottom: 50PX;
+		}
+h2 {
+		font-size: 24px;
+		}
+h3 {
+		font-size: 18px;
+		}
+p {
+		margin-bottom: 20px;
+		}
+ul, ol {
+		margin: 0;
+		padding: 0;
+		margin-left: 30px;
+		}
